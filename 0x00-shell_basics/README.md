@@ -41,3 +41,38 @@ Delete the file betty.
 
 Delete the directory holberton that is in the /tmp directory
 
+### 10-back
+
+Write a script that changes the working directory to the previous one.
+
+### 11-lists
+
+Write a script that lists all files
+
+### 12-file_type
+
+Write a script that prints the type of the file named iamafile.
+
+### 13-symbolic_link
+
+Create a symbolic link to /bin/ls, named __ls__. 
+
+### 14-copy_html
+
+Create a script that copies all the HTML files from the current working directory to the parent of the working directory.
+
+### 15-lets_move
+
+Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+### 16-clean_emacs
+
+Create a script that deletes all files in the current working directory that end with the character ~.
+
+### 17-tree
+
+Create a script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
+
+### 18-commas
+
+Write a command that lists all the files and directories of the current directory, separated by commas (,).
