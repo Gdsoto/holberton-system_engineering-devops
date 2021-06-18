@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#Comentario
+hour=0
+min=1
+echo "Hour: $hour"
+while ((hour <= 12))
+do
+    echo $min
+    ((min++))
+    if ((min > 59))
+    then
+	if ((hour < 12))
+	then
+	    ((hour++))
+	    echo "Hour: $hour"
+	    min=1
+	else
+	    ((hour++))
+	fi
+    fi
+done
